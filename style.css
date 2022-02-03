@@ -63,16 +63,6 @@
 		  background-attachment: fixed;
 	  }
 
-	  .box3{
-		background-color: gray;
-		height: 50vh;
-		width: 100%;
-		margin-left: 57%;
-		margin-right: 28px;
-		margin-top: 103px;
-		background-attachment: fixed;
-	  }
-
 	  .box4{
 		background-color: black;
 	  height: 0.1vh;
@@ -83,24 +73,66 @@
 	  background-attachment: fixed;
 	  }
 
-.works{
-	display: flex;
-	width:1415px;
-	height: 400px;
-	margin:auto;
-	
-	
-}  
 
-.works > li{
-	flex: 1;
-	background: gray;
-	margin-top:40px;
-	height:400px;
-}
+	  .boxarticle{
+		background-color:white;
+		height: 10vh;
+		width: 100%;
+	}
 
-.works > li:not(:last-child){
-	margin-right: 20px;
-	margin-left:5px;
+	.boxarticle2{
+		background-color:white;
+		height: 4vh;
+		width: 100%;
+	}
+
+	.boxarticle3{
+border-top: 1px solid black;
+		height: 0px;
+		width: 100%;
+		margin-left: 10px;
+	}
+	.boxarticle4{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+				height: 5.5vh;
+				width: 100%;
+				margin-left: 12px;
+			}
+
+	.title{
+		color: black;
+		margin-top: 20px;
+		font-size: 28pt;
+		margin-left: 12px;
+
+	}
+
+	.title2{
+		color: black;
+		margin-top: 8px;
+		font-size: 16pt;
+		margin-left: 40px;
+
+	}
+
+
+	.title3{
+		color: black;
+		margin-top: 8px;
+		font-size: 16pt;
+		margin-left: 33px;
+
+	}
+
+	.vl {
+		border-left: 1px solid black;
+		height: 328px;
+		position: absolute;
+		left: 7%;
+		margin-left: -3px;
+		margin-top: 285px;
+		top: 0;
+	  }
+
 	
-}
